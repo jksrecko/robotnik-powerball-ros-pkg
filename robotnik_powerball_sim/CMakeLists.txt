@@ -30,3 +30,4 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #target_link_libraries(example ${PROJECT_NAME})
 
 rosbuild_add_library(powerball_cart_controller_lib src/powerball_cart_controller.cpp)
+rosbuild_add_compile_flags(powerball_cart_controller_lib -fpermissive)
