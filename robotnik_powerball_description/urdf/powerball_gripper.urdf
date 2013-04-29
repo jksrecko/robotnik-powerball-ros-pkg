@@ -146,8 +146,8 @@
     <!--axis xyz="0 0 1"/-->
     <calibration rising="0"/>
     <dynamics damping="10"/>
-    <limit effort="370" velocity="2.0" lower="-3.1416" upper="3.1416"/>
-    <safety_controller k_position="20" k_velocity="50" soft_lower_limit="-3.1416" soft_upper_limit="3.1416"/>
+    <limit effort="370" velocity="2.0" lower="-2.9671" upper="2.9671"/>
+    <safety_controller k_position="20" k_velocity="50" soft_lower_limit="-2.9671" soft_upper_limit="2.9671"/>
   </joint>
   <link name="arm_1_link">
     <inertial>
@@ -176,8 +176,8 @@
     <axis xyz="0 0 -1"/>
     <calibration rising="0"/>
     <dynamics damping="10"/>
-    <limit effort="370" velocity="2.0" lower="-3.1416" upper="3.1416"/>
-    <safety_controller k_position="20" k_velocity="50" soft_lower_limit="-3.1416" soft_upper_limit="3.1416"/>
+    <limit effort="370" velocity="2.0" lower="-2.9671" upper="2.9671"/>
+    <safety_controller k_position="20" k_velocity="50" soft_lower_limit="-2.9671" soft_upper_limit="2.9671"/>
   </joint>
   <link name="arm_2_link">
     <inertial>
@@ -206,8 +206,8 @@
     <axis xyz="0 0 -1"/>
     <calibration rising="0"/>
     <dynamics damping="5"/>
-    <limit effort="176" velocity="2.0" lower="-3.1416" upper="3.1416"/>
-    <safety_controller k_position="20" k_velocity="25" soft_lower_limit="-3.1416" soft_upper_limit="3.1416"/>
+    <limit effort="176" velocity="2.0" lower="-2.9671" upper="2.9671"/>
+    <safety_controller k_position="20" k_velocity="25" soft_lower_limit="-2.9671" soft_upper_limit="2.9671"/>
   </joint>
   <link name="arm_3_link">
     <inertial>
@@ -236,8 +236,8 @@
     <axis xyz="0 0 1"/>
     <calibration rising="0"/>
     <dynamics damping="5"/>
-    <limit effort="176" velocity="2.0" lower="-3.1416" upper="3.1416"/>
-    <safety_controller k_position="20" k_velocity="25" soft_lower_limit="-3.1416" soft_upper_limit="3.1416"/>
+    <limit effort="176" velocity="2.0" lower="-2.9671" upper="2.9671"/>
+    <safety_controller k_position="20" k_velocity="25" soft_lower_limit="-2.9671" soft_upper_limit="2.9671"/>
   </joint>
   <link name="arm_4_link">
     <inertial>
@@ -266,8 +266,8 @@
     <axis xyz="0 0 -1"/>
     <calibration rising="0"/>
     <dynamics damping="5"/>
-    <limit effort="41.6" velocity="2.0" lower="-3.1416" upper="3.1416"/>
-    <safety_controller k_position="20" k_velocity="25" soft_lower_limit="-3.1416" soft_upper_limit="3.1416"/>
+    <limit effort="41.6" velocity="2.0" lower="-2.9671" upper="2.9671"/>
+    <safety_controller k_position="20" k_velocity="25" soft_lower_limit="-2.9671" soft_upper_limit="2.9671"/>
   </joint>
   <link name="arm_5_link">
     <inertial>
@@ -296,8 +296,8 @@
     <axis xyz="0 0 -1"/>
     <calibration rising="0"/>
     <dynamics damping="5"/>
-    <limit effort="20.1" velocity="2.0" lower="-3.1416" upper="3.1416"/>
-    <safety_controller k_position="20" k_velocity="25" soft_lower_limit="-3.1416" soft_upper_limit="3.1416"/>
+    <limit effort="20.1" velocity="2.0" lower="-2.9671" upper="2.9671"/>
+    <safety_controller k_position="20" k_velocity="25" soft_lower_limit="-2.9671" soft_upper_limit="2.9671"/>
   </joint>
   <link name="arm_6_link">
     <inertial>
